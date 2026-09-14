@@ -1,0 +1,16 @@
+# Linux/WSL, CPython 3.11.15. Aer is compiled by build_backend.py.
+# Runtime pins and packages observed on the author's host on 2026-09-13.
+# This is a reconstruction recipe, not a complete historical environment lock.
+-r requirements.txt
+qiskit==2.5.0
+scipy==1.17.1
+threadpoolctl==3.6.0
+psutil==7.2.2
+pybind11==3.0.4
+setuptools==83.0.0
+wheel==0.47.0
+scikit-build==0.19.1
+cuquantum-cu12==24.8.0
+custatevec-cu12==1.6.0.post1
+cutensornet-cu12==2.5.0
+cutensor-cu12==2.7.0

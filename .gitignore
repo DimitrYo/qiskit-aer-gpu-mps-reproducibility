@@ -1,0 +1,7 @@
+.venv*/
+.bootstrap/
+.build/
+runs/
+output/
+__pycache__/
+*.pyc
