@@ -1,0 +1,135 @@
+{
+  "schema_version": 2,
+  "package_kind": "minimal-article-reproduction",
+  "materials_repository": {
+    "url": "https://github.com/DimitrYo/qiskit-aer-gpu-mps-reproducibility"
+  },
+  "full_export_provenance_sha256": "de11fcb468154c146bb6a7bbe719080e028d8771665d187b6d26312954865592",
+  "original_aer_bundle_sha256": "3e4cc71dc90ca9dbf3d9d44b9900f65c00e80a8163acaf2fcf46d74272c30052",
+  "evaluated_aer_revision": "a1242579272784330b217085fe11b7e1481922ad",
+  "historical_aer_revision": "75137ba7dee76ec864cb723a6c3aa9650fbf4f43",
+  "article_revision": "022",
+  "scope": "Current article evidence plus preserved earlier supporting studies; archive bytes unchanged. New seed-20260912 runs are separate from the recorded results.",
+  "files": {
+    ".gitattributes": {
+      "sha256": "e6668cad77aa53819646d06be07cbc3349712daf88ca05422d8a29ad62d1e8f0",
+      "source": "Generated"
+    },
+    ".gitignore": {
+      "sha256": "3dfa5d221c16bf1651be74ca529f760d9e505b5c3f7fa0bf1fddfa60f2d455a4",
+      "source": "Generated"
+    },
+    "ARTICLE.md": {
+      "sha256": "10373a875ffa6d5cba56ef6501121ceb8d3021839a8936ea9af61e6f888c5150",
+      "source": "Reproduction code and documentation"
+    },
+    "LICENSE": {
+      "sha256": "1aae239401aa855e02fb7197a1d5fd8ad2d7c40e31a87241009e5cc593ded4ce",
+      "source": "LICENSE"
+    },
+    "README.md": {
+      "sha256": "7771b2bc70981c3788be71b7a836386f6ca7722c03a29165564294d4ed33e125",
+      "source": "Reproduction code and documentation"
+    },
+    "SETUP.md": {
+      "sha256": "a4d6910d6baf20129aebcf3d519e377021714ea825a5dc9f8ae1c4e2ea2483ed",
+      "source": "Reproduction code and documentation"
+    },
+    "backend/LICENSE.txt": {
+      "sha256": "62110f3e60f594c861674f74d007283a8ed8dfee449859132e11d28e5c2b0d96",
+      "source": "experiment/source/LICENSE.txt"
+    },
+    "backend/aer-history.bundle": {
+      "sha256": "9b3e0a83d6477d55b4ca63fe0a0796d07b4ae486ab6ad1c31501c818421ce022",
+      "source": "Pinned Aer source commits; publication refs: custom, upstream, historical"
+    },
+    "backend/historical-runners.sha256": {
+      "sha256": "83f367db23c918d8d2c6e8f1822360776a2bb11dbf56c0e8367453d818f56f5c",
+      "source": "Generated"
+    },
+    "backend/historical-runners.zip": {
+      "sha256": "3ddaa823aa88ea3e092a23f1fc14824e15ab9b4e07184ccfb2b28a5fbb11a139",
+      "source": "Verified full-export collection sources and historical manifests"
+    },
+    "backend/recorded-builds.zip": {
+      "sha256": "fe82793e0125b3e6cac6474a568eda4b32d182b5751f8e1af2199303a7d4280f",
+      "source": "experiment/build/recorded"
+    },
+    "build_backend.py": {
+      "sha256": "c6b8c733c459ddf9ce5e12b021b7fb7c88e4e0b686208a81aa0eab898be36c12",
+      "source": "Reproduction code and documentation"
+    },
+    "data/cpu-selection.zip": {
+      "sha256": "27fb140cb57e920a799f67c8dd89867cbdd8739d40803fd927d9c65b0790047e",
+      "source": "Recorded experiment: 20260907_p1_cpu_selection_01"
+    },
+    "data/execution-order.zip": {
+      "sha256": "24879d9d42f4f1ba3054d048574354dac324c17abb3710ac1c66093f6dae699a",
+      "source": "Recorded experiment: 20260725_t27_methodology_hardening_01"
+    },
+    "data/fixed-input.zip": {
+      "sha256": "4518bf4d43dee8a6c419d5fd47a822d3d8cd7a93eadacfb685f5eee5f1c82059",
+      "source": "Recorded experiment: 20260912_s1_fixed_input_map_01"
+    },
+    "data/historical-scaling-16.zip": {
+      "sha256": "756f822420564b57c22ccf8825db960b90ff305affe1263ecd958dfc6298a0d7",
+      "source": "Recorded experiment: 20260724_t17_exact_n16_d24_chi1024_01"
+    },
+    "data/historical-scaling-18.zip": {
+      "sha256": "80a58df8e4a02e92daa9fd76a12dbbb94bc970f8769d9fda1115603eab2d4b5f",
+      "source": "Recorded experiment: 20260724_t17_exact_n18_d24_chi1024_01"
+    },
+    "data/historical-scaling-20.zip": {
+      "sha256": "280f1038cdebe3d46dac5559b9741a2444923b9e7caab4feb6490836b422cda0",
+      "source": "Recorded experiment: 20260724_t17_exact_n20_d24_chi1024_01"
+    },
+    "data/historical-workloads.zip": {
+      "sha256": "fa024e5700cfab84f69a21c9f58b9ad673fd1db297f55eee24f365dbdd533360",
+      "source": "Recorded experiment: 20260724_t26_algorithm_map_01"
+    },
+    "data/implementation-tests.zip": {
+      "sha256": "f11a68635423c3fe30e54e43876831882e79a1be3c1b9b50cd8d28a990bffa74",
+      "source": "Recorded experiment: p0_validation"
+    },
+    "data/independent-confirmation.zip": {
+      "sha256": "1eb1292937337a25fef62f64a18e42d72461e0b35cd8d3b69d6f20458b42e8a6",
+      "source": "Recorded experiment: 20260907_p2_confirmation_01"
+    },
+    "data/independent-pilot.zip": {
+      "sha256": "d597d04b4030c5cb15590523d0df60d42353c354e3ae252d491bcc948ac44bb6",
+      "source": "Recorded experiment: 20260907_p2_paired_pilot_01"
+    },
+    "data/index.json": {
+      "sha256": "80419c15ce2130527ceab168a755ab9ae7221346a5f879eadd26318ad7d73b2b",
+      "source": "Generated from verified raw evidence"
+    },
+    "data/mechanism-diagnostics.zip": {
+      "sha256": "b00a2f886477f336d442d3eb8375fc171d502f39679f79580c0eb8c23fad6367",
+      "source": "Recorded experiment: 20260907_p3_mechanism_diagnostics_02"
+    },
+    "data/svd-variants.zip": {
+      "sha256": "f32c40f66bdf0615ba46b14cc6d2d7e07c86303d79bbe69a4df5d16d0857b247",
+      "source": "Recorded experiment: 20260725_t29_native_svd_03"
+    },
+    "plot_results.py": {
+      "sha256": "f451a5701869e2ad366b35220810e9f1008dc6b5950bf96df6cfea50380ac290",
+      "source": "Reproduction code and documentation"
+    },
+    "requirements-gpu.txt": {
+      "sha256": "0a12258935f0f34a0dd4e7fef25baa1b207eb27536118b3eafcaa3650435d8cf",
+      "source": "Reproduction code and documentation"
+    },
+    "requirements.txt": {
+      "sha256": "5521c7d482821d44a3f78a4f21adaac19654f2d624cae00c34b3cd917db82fed",
+      "source": "Reproduction code and documentation"
+    },
+    "run_experiment.py": {
+      "sha256": "bafe4ab18d881cd0d912f2f88089cbbe5d12ffbec3a07c582469b76702c90fa9",
+      "source": "Reproduction code and documentation"
+    },
+    "verify_results.py": {
+      "sha256": "921f847478becb3086f1475691282435d58c011eecee54d75bfd2e82fe38911b",
+      "source": "Reproduction code and documentation"
+    }
+  }
+}
